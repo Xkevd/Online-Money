@@ -113,6 +113,7 @@ header, main div{
 #bullet-points-div{
     padding-top: 3rem;
     background-color: var(--blanco);
+    padding-bottom: 4rem;
 }
 #bullet-points-div ul{
     border: var(--beige-oscuro) solid 2px;

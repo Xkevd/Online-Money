@@ -10,7 +10,8 @@
 --blanco:  #EAEAEA;
 --beige-claro: #C8AF7B;
 --beige-oscuro: #A08053;
---boton-imagen-size: 90%;
+--boton-imagen-size: 65vw;
+--boton-img-size: 58vw;
 }
 /* --- ALINEACION DE TEXTO --- */
 .left{
@@ -22,11 +23,11 @@
 /* --- COLORES/FONTS DE TEXTO --- */
 .parrafo-font{
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
 }
 .titulo-font{
     font-family: "Roxborough", sans-serif;
-    
+    font-size: 2rem;
 }
 .gradiente{
     background-clip: text;
@@ -64,31 +65,29 @@
 }
 /* --- TAMAÑOS DE TEXTO --- */
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 1.3rem;
 }
 
 /* --- BOTONES, LISTAS y OTROS ELEMENTOS */
 .boton-principal{
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
-    background-image: linear-gradient(-45deg, #b3915d, #edcc86, #b3915d);
+    font-size: 1rem;
+    background-image: linear-gradient(-45deg, #74562b, #edcc86, #74562b);
     display: block;
     margin: auto;
-    width: var(--boton-imagen-size);
-    padding: 1rem 1rem;
+    /*width: var(--boton-imagen-size);*/
+    padding: 1rem 0rem;
     border: none;
     cursor: pointer;
     margin-bottom: 1rem;
 }
-button+picture{
-    width: var(--boton-imagen-size);
-}
 hr{
-    width: 25vw;
+    width: 30vw;
+    size: 2rem;
 }
 /* --- CUERPO --- */
 body{
@@ -103,99 +102,118 @@ header, main, footer{
     margin: 1rem 0;
 }
 header, main div{
-    padding: 0 10vw;
+    padding: 0 8vw;
+}
+header div{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header div button{
+    width: 65vw;
+}
+#pagos-1 img{
+    position: relative;
+    width: 58vw;
 }
 /* --- Cuatro Puntos --- */
 #cuatro-puntos{
     padding-bottom: 4rem;
 }
+#cuatro-puntos h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 /* --- Bullet Points --- */
 #bullet-points-div{
     padding-top: 3rem;
     background-color: var(--blanco);
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
+
 #bullet-points-div ul{
     border: var(--beige-oscuro) solid 2px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 4rem;
+    padding-left: 3rem;
     margin-bottom: 2rem;
 }
 #bullet-points-div ul li{
     font-weight: 500;
-    padding: 0.5rem 0;
+    padding: 0.3rem 0;
+}
+#segunda-lista{
+    margin-top: 2rem;
+}
+#bullet-points-div button{
+    width: var(--boton-imagen-size);
+    margin-top: 2rem;
+}
+#bullet-points-div picture{
+    width: var(--boton-img-size);
+}
+#bullet-points-div img{
+    width: var(--boton-img-size);
 }
 /* --- Cuarto Parrafo --- */
 #cuarto-parrafo{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+#cuarto-parrafo h2{
+    font-size: 1rem;
 }
 /* --- Quinto Parrafo --- */
 #quinto-parrafo{
-    padding-bottom: 2rem;
+    padding-bottom: 0.6rem;
+}
+#quinto-parrafo h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 #quinto-parrafo p{
     border: var(--beige-claro) solid 1px;
     padding: 1rem;
+    line-height: 0.9rem;
 }
 /* --- Libro --- */
 #libro-div{
-    padding-top: 1.5rem;
+    padding-top: 0.6rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+#libro-div h2{
+    font-size: 1.5rem;
+}
+#libro-div p{
+    margin: 0.5rem;
+}
 #libro-antes{
     position: relative;
+    padding: 0;
 }
-#libro-antes p{
+#libro-antes picture img{
+    width: 100%;
+}
+#precio-libro img{
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    bottom: 0;
 }
 #precio-libro{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 4rem;
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 4rem;
-}
-#precio-libro p:nth-child(1){
-    grid-column: 1/3;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-#precio-libro p:nth-child(2), #precio-libro p:nth-child(3){
-    grid-column: 1/2;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-}
-#precio-libro p:nth-child(3){
-    font-size: 3rem;
-    text-align: left;
-}
-#precio-libro p:nth-child(4){
-    grid-column: 2/3;
-    grid-row: 2/4;
-    align-self: center;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-    font-size: 5rem;
+    position: relative;
+    width: 50vw;
+    bottom: 2rem;
 }
 #boton-libro{
     margin: 0;
     width: var(--boton-imagen-size);
     margin-bottom: 1rem;
+    margin-top: 5rem;
     cursor: pointer;
 }
 /*Logo*/

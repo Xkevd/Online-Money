@@ -7,6 +7,7 @@
     <title>Online Money</title>
     <link rel="stylesheet" href="css/principal.css">
     <link rel="icon" href="images/Favicon.ico">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
         <picture>
             <img src="images/Iphones.png" alt="iPhone">
         </picture>
-        <h2 class="titulo-font center gradiente">
+        <h2 id="subtitulo-header" class="titulo-font center gradiente">
             DESCUBRE el método
             DEFINITIVO para aprender
             a generar INGRESOS EXTRA
@@ -197,14 +198,14 @@
                     <img src="images/Libro.png" alt="Libro">
                 </picture>
                 <!--<p class="parrafo-font center blanco mon-medium">ANTES <del>US$119</del></p> -->
-                
+                <picture id="precio-libro">
+                    <img src="images/Precio.png" alt="Precio">
+                </picture>
             </div>    
-            <picture id="precio-libro">
-                <img src="images/Precio.png" alt="Precio">
-            </picture>
+            
             <button id="boton-libro" class="boton-principal">QUIERO APROVECHAR LA OFERTA ESPECIAL</button>
             <picture>
-                <img src="images/Tarjetas Boton 3.png" alt="Metodos de pago">
+                <img id="pagos-3" src="images/Tarjetas Boton 3.png" alt="Metodos de pago">
             </picture>
         </div>
         <div id="faq-div">
@@ -214,24 +215,54 @@
             <section>
                 <p>¿Cómo voy a recibir el curso?</p>
                 <button>+</button>
-                <p></p>
+                <p class="closed">Al realizar el registro deberas colocar tu email. Ingresa el email que uses frecuentemente ya que al finalizar la compra recibirás el acceso al curso a ese mail con el que te registraste.</p>
+            </section>
+            <hr>
+            <section>
+                <p>¿Necesito invertir en otras herramientas para tener ventas?</p>
+                <button>+</button>
+                <p class="closed">No es necesario. En este curso te enseño el paso a paso para generar ventas con estrategias orgánicas (sin invertir en anuncios).</p>
+            </section>
+            <hr>
+            <section>
+                <p>¿Cuanto tiempo lleva tener resultados?</p>
+                <button>+</button>
+                <p class="closed">Los resultados van a depender de ti. Utilizando las estrategias del curso con consistencia y dedicación tu éxito sera inevitable. </p>
+            </section>
+            <hr>
+            <section>
+                <p>¿Tendré acceso inmediato al curso?</p>
+                <button>+</button>
+                <p class="closed">Si, al finalizar la compra recibirás a la dirección que email que ingresaste los datos de ingreso al area de miembros. </p>
+            </section>
+            <hr>
+            <section>
+                <p>¿Recibire un certificado?</p>
+                <button>+</button>
+                <p class="closed">Si, recibirás un certificado al finalizar todos los módulos. </p>
+            </section>
+            <hr>
+            <section>
+                <p>¿Tendré soporte personalizado?</p>
+                <button>+</button>
+                <p class="closed">Si, al ingresar al curso verás un módulo de soporte que explica cómo hacer para ingresar a un grupo donde se atenderán todas sus dudas.</p>
             </section>
         </div>
     </main>
     <footer>
         <hr>
-        <p class="parrafo-font center blanco mon-light">AZUL LEMOS | COPYRIGHT &copy;<span></span> | TODOS LOS DERECHOS RESERVADOS</p>
+        <p id="copyright" class="parrafo-font center blanco mon-light">AZUL LEMOS | COPYRIGHT &copy;<span></span> | TODOS LOS DERECHOS RESERVADOS</p>
         <hr>
-        <p class="parrafo-font center blanco mon-light">Usted acepta que su uso o incapacidad para usar productos en nuestro
+        <p class="center blanco mon-light">Usted acepta que su uso o incapacidad para usar productos en nuestro
             sitio web es bajo su propio riesgo.</p>
-        <p class="parrafo-font center blanco mon-light">
+        <p class="center blanco mon-light">
             Al comprar un producto de nuestra empresa, usted acepta, está de acuerdo y comprende
             que es completamente responsable de su progreso y los resultados de su participación
             y que no hacemos ninguna declaración, garantía, ni siquiera verbal o escrita, sobre
             sus ganancias, ganancias comerciales, marketing, desempeño, crecimiento de
             audiencia o resultados de cualquier tipo.
         </p>
-        <p class="parrafo-font center blanco mon-light">
+        <p class="center blanco mon-light">
             Estamos comprometidos con la entrega de contenido, dedicándonos al máximo
             a transmitir a nuestros clientes nuestro conocimiento/estrategia que utilizamos
             y todo aquello que nos ha generado resultados. Pero, el conocimiento que
@@ -239,7 +270,7 @@
             Depende de USTED poner en práctica lo que aprende, para lograr los
             resultados deseados.
         </p>
-        <p class="parrafo-font center blanco mon-light">
+        <p class="center blanco mon-light">
             Cuente con nuestra máxima entrega y dedicación, como contamos con su
             compromiso y aplicación.
         </p>

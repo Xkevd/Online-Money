@@ -95,6 +95,7 @@ hr{
 body{
     background-color: var(--negro);
     margin-top: 4rem;
+    margin-bottom: 0;
 }
 header, main, footer{
     display: flex;
@@ -175,6 +176,7 @@ header div button{
 }
 #quinto-parrafo h2{
     font-size: 1.5rem;
+    margin-top: 0;
     margin-bottom: 1rem;
 }
 #quinto-parrafo p{
@@ -273,7 +275,8 @@ img{
 }
 /* FOOTER */
 footer{
-    padding: var(--espacio-entre-divs) 2vw;
+    padding: var(--espacio-entre-divs) 2vw 0 2vw;
+    margin-bottom: 0;
 }
 footer hr{
     width: 100%;
@@ -290,6 +293,11 @@ footer p{
 }
 footer picture{
     padding-top: var(--espacio-entre-divs);
+    margin: 0;
+    padding-bottom: 0;
+}
+#logo-final{
+    height: 100%;
 }
 
 /* TESTING */

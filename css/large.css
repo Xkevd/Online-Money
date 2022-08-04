@@ -101,7 +101,7 @@
     }
     /* --- BULLET POINTS --- */
     #bullet-points-div{
-        width: 100%;
+        width: 90vw;
         padding: 0 8vh;
         display: flex;
         flex-direction: column;

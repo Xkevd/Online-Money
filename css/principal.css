@@ -222,9 +222,12 @@ header div button{
     display: grid;
     grid-template-columns: auto 20px;
     column-gap: 5px;
-    animation: openQ 2s;
+    width: 100%
 }
-@keyframes openQ {
+
+#faq-div{
+    width: 90%;
+    padding: 0 8vw;
     
 }
 #faq-div section p{
@@ -243,7 +246,8 @@ header div button{
     display: none;
 }
 #faq-div section p:nth-child(3){
-    display: inline;
+    display: inline-block;
+    margin-left: 1rem;
     
 }
 #faq-div section button{

@@ -12,6 +12,7 @@
 --beige-oscuro: #A08053;
 --boton-imagen-size: 65vw;
 --boton-img-size: 58vw;
+--espacio-entre-divs: 2rem;
 }
 /* --- ALINEACION DE TEXTO --- */
 .left{
@@ -122,7 +123,7 @@ header div button{
 }
 /* --- Cuatro Puntos --- */
 #cuatro-puntos{
-    padding-bottom: 4rem;
+    padding-bottom: var(--espacio-entre-divs);
 }
 #cuatro-puntos h1{
     padding-bottom: 0;
@@ -130,9 +131,9 @@ header div button{
 }
 /* --- Bullet Points --- */
 #bullet-points-div{
-    padding-top: 3rem;
+    padding-top: var(--espacio-entre-divs);
     background-color: var(--blanco);
-    padding-bottom: 2rem;
+    padding-bottom: var(--espacio-entre-divs);
 }
 
 #bullet-points-div ul{
@@ -161,14 +162,16 @@ header div button{
 }
 /* --- Cuarto Parrafo --- */
 #cuarto-parrafo{
-    padding-top: 1rem;
+    padding-top: var(--espacio-entre-divs);
+    padding-bottom: var(--espacio-entre-divs);
 }
 #cuarto-parrafo h2{
     font-size: 1rem;
 }
 /* --- Quinto Parrafo --- */
 #quinto-parrafo{
-    padding-bottom: 0.6rem;
+    padding-top: var(--espacio-entre-divs);
+    padding-bottom: var(--espacio-entre-divs);
 }
 #quinto-parrafo h2{
     font-size: 1.5rem;
@@ -181,7 +184,8 @@ header div button{
 }
 /* --- Libro --- */
 #libro-div{
-    padding-top: 0.6rem;
+    padding-top: var(--espacio-entre-divs);
+    padding-bottom: var(--espacio-entre-divs);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -269,7 +273,7 @@ img{
 }
 /* FOOTER */
 footer{
-    padding: 2vw;
+    padding: var(--espacio-entre-divs) 2vw;
 }
 footer hr{
     width: 100%;
@@ -283,6 +287,9 @@ footer p{
     font-size: 0.6rem;
     padding: 0.3rem 1rem;
     margin: 0;
+}
+footer picture{
+    padding-top: var(--espacio-entre-divs);
 }
 
 /* TESTING */

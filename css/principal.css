@@ -96,6 +96,7 @@ body{
     background-color: var(--negro);
     margin-top: 4rem;
     margin-bottom: 0;
+    padding-bottom: 0;
 }
 header, main, footer{
     display: flex;
@@ -295,9 +296,13 @@ footer picture{
     padding-top: var(--espacio-entre-divs);
     margin: 0;
     padding-bottom: 0;
+    display: flex;
 }
 #logo-final{
-    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-self: baseline;
 }
 
 /* TESTING */

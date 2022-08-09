@@ -65,7 +65,7 @@
     #sub-p2+button{
         transition: 0.2s box-shadow;
     }
-    #sub-p2+button:hover{
+    #sub-p2+ a button:hover{
         box-shadow: 1px 1px 15px 1px #a0805380;
     }
     header div .boton-principal{

@@ -169,13 +169,18 @@
         align-self: flex-end;
         font-weight: 500;
     }
-    #bullet-points-div button{
+    #bullet-points-div a{
+        display: inline-block;
+        width: 100%;
         grid-column: 1/3;
+    }
+    #bullet-points-div a button{
+        
         font-weight: 400;
         width: var(--button-image-size);
         transition: 0.2s box-shadow;
     }
-    #bullet-points-div button:hover{
+    #bullet-points-div a button:hover{
         box-shadow: 1px 1px 15px 1px #1D1D1D;
     }
     #pagos-2{

@@ -22,6 +22,9 @@
     text-align: center;
 }
 /* --- COLORES/FONTS DE TEXTO --- */
+a{
+    text-decoration: none;
+}
 .parrafo-font{
     font-family: "Montserrat", sans-serif;
     font-size: 0.9rem;
@@ -116,7 +119,7 @@ header div{
 #subtitulo-header{
     font-size: 1.5rem;
 }
-header div button{
+header div a button{
     width: 65vw;
 }
 #pagos-1 img{
@@ -152,7 +155,7 @@ header div button{
 #segunda-lista{
     margin-top: 2rem;
 }
-#bullet-points-div button{
+#bullet-points-div a button{
     width: 100%;
     margin-top: 2rem;
 }

@@ -217,9 +217,20 @@
     }
     /* --- CUARTO PARRAFO --- */
     #cuarto-parrafo{
-        width: 60vw;
+        width: 80vw;
         padding-top: 5vh;
         margin-bottom: 5vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, auto);
+        column-gap: 5vw;
+        
+    }
+    #cuarto-parrafo div{
+        grid-column: 1/2;
+        grid-row: 1/7;
+        display: flex;
+        flex-direction: column;
     }
     #cuarto-parrafo h2{
         margin-bottom: 0;

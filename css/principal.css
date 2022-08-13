@@ -173,6 +173,9 @@ header div a button{
 #cuarto-parrafo h2{
     font-size: 1rem;
 }
+#cuarto-parrafo div{
+    padding: 0;
+}
 /* --- Quinto Parrafo --- */
 #quinto-parrafo{
     padding-top: var(--espacio-entre-divs);

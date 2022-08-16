@@ -242,43 +242,89 @@
         text-align: justify;
     }
     /* --- QUINTO PARRAFO --- */
+    #cuarto-parrafo + hr{
+        width: 15vw;
+    }
+    #quinto-parrafo + hr{
+        width: 15vw;
+    }
     #quinto-parrafo{
-        margin-top: 5vh;
         width: 50vw;
-        margin-bottom: 5vh;
+    }
+    #quinto-parrafo h2{
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+    #quinto-parrafo p{
+        width: 30vw;
+        margin: 1rem auto;
     }
     /* --- LIBRO --- */
     #libro-div{
         margin-top: 5vh;
-        width: 50vw;
+        width: 70vw;
+        display: grid;
+        column-gap: 5vw;
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: 50% 50%;
+    }
+    #libro-div :nth-child(1){
+        grid-row: 1/2;
+        grid-column: 1/2;
+        text-align: left;
+        font-size: 1.5rem;
+        align-self: flex-start;
+    }
+    #libro-div :nth-child(2){
+        grid-row: 2/3;
+        grid-column: 1/2;
+        text-align: left;
+        font-size: 1.5rem;
+        align-self: flex-end;
+        margin-top: 1.5rem;
+
     }
     #libro-div h2{
         margin: 0;
+        grid-row: 3/6;
+        grid-column: 1/2;
+        text-align: left;
+        font-size: 2.5rem;
+        align-self: flex-start;
+        margin-top: 2rem;
+    }
     }
     #libro-antes{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+        grid-row: 1/4;
+        height: fit-content;
     }
     #precio-libro{
-        margin: 0;
-        width: 12vw;
-        margin-top: -5vh;
+        margin: auto;
+        width: 35%;
+        position: relative;
+        top: -8vh;
     }
     #imagen-libro{
-        width: 25vw;
+        width: 80%;
+        margin: auto;
     }
     #boton-libro{
-        width: 40vw;
-        font-weight: 500;
+        width: 100%;
+        font-weight: 400;
         transition: 0.2s box-shadow;
+        grid-row: 4/5;
     }
     #boton-libro:hover{
         box-shadow: 1px 1px 15px 1px #a0805380;
     }
     #pagos-3{
-        width: 38vw;
+        width: 98%;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        
     }
 
 }

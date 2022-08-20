@@ -1,14 +1,16 @@
-@media (min-width:900px) {
+@media (min-width:1000px) {
     :root{
         --button-image-size: 60vw;
         --button-img-size: calc(var(--button-image-size)*0.8);
     }
+    
     header{
         margin-top: 15vh;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 15vh fit-content auto 20vh auto;
+        grid-template-rows: min-content 5vh auto 20vh auto auto;
         margin-bottom: 15vh;
+        height: 100vh;
     }
     #iphones{
         grid-column: 1/2;
@@ -20,7 +22,7 @@
         height: 15vh;
         grid-column: 1/2;
         grid-row: 1/2;
-        align-self: flex-end;
+        align-self: flex-start;
         justify-self: left;
         margin-left: 0;
         margin: 0;
@@ -89,6 +91,9 @@
     }
 
     /* --- MAIN --- */
+    #introduccion{
+        height: 10vh;
+    }
     #introduccion p{
         font-size: 1rem;
         text-align: center;
@@ -96,6 +101,8 @@
     }
     /* --- CUATRO PUNTOS --- */
     #cuatro-puntos{
+        margin-top: 0;
+        height: 90vh;
         padding: auto;
         display: grid;
         grid-template-columns: 50% 50%;
@@ -132,7 +139,8 @@
     #cuatro-puntos p{
         font-size: 1.2rem;
         text-align: center;
-        padding: 0 1.5rem;
+        padding: 0 2rem;
+        margin-top: 0;
     }
     main div{
         padding: 0 8vw;
@@ -140,15 +148,13 @@
     /* --- BULLET POINTS --- */
     #bullet-points-div{
         width: 90vw;
+        min-height: 100vh;
+        height: auto;
         padding: 5vh 8vh;
         display: grid;
         grid-template-columns: 100%;
     }
     #bullet-points-div p:nth-child(1){
-        margin-top: 5vh;
-        font-size: 1rem;
-        grid-row: 2/3;
-        text-align: center;
         display: none;
     }
     #bullet-points-div h2{
@@ -165,7 +171,7 @@
         justify-content: space-between;
     }
     #bullet-ul-1 li{
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     #bullet-ul-2{
         padding: 0;
@@ -174,7 +180,7 @@
         justify-self: left;
     }
     #bullet-ul-2 li{
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
     #primera-lista{
         text-align: center;
@@ -184,14 +190,12 @@
         width: 25vw;
         align-self: center;
         justify-self: center;
-        margin-bottom: 2rem;
     }
     #segunda-lista{
         margin-top: 0;
         text-align: center;
         font-weight: 500;
         font-size: 1rem;
-        margin-bottom: 2rem;
     }
     #bullet-points-div a{
         display: inline-block;
@@ -217,14 +221,17 @@
     }
     /* --- CUARTO PARRAFO --- */
     #cuarto-parrafo{
+        min-height: 100vh;
+        height: auto;
         width: 80vw;
-        padding-top: 5vh;
-        margin-bottom: 5vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(6, auto);
+        grid-template-rows: repeat(6, min-content);
         column-gap: 5vw;
-        
+        margin-top: auto;
+        margin-bottom: auto;     
+        padding: auto;
+        align-content: center;
     }
     #cuarto-parrafo div{
         grid-column: 1/2;
@@ -250,6 +257,10 @@
     }
     #quinto-parrafo{
         width: 50vw;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #quinto-parrafo h2{
         margin-top: 0;
@@ -257,16 +268,20 @@
     }
     #quinto-parrafo p{
         width: 30vw;
+        font-size: 1rem;
         margin: 1rem auto;
     }
     /* --- LIBRO --- */
     #libro-div{
+        min-height: 100vh;
+        height: auto;
         margin-top: 5vh;
         width: 70vw;
         display: grid;
         column-gap: 5vw;
         grid-template-rows: fit-content fit-content fit-content auto auto;
         grid-template-columns: 50% 50%;
+        align-content: center;
     }
     #libro-div p:nth-child(1){
         grid-row: 1/2;
@@ -287,7 +302,8 @@
         grid-row: 3/6;
         grid-column: 1/2;
         text-align: left;
-        font-size: 3rem;
+        font-size: 2.5rem;
+        margin-top: 1rem;
         align-self: flex-start;
     }
     #libro-antes{
@@ -332,6 +348,22 @@
         grid-row: 4/5;
         position: relative;
         top: -8vh;
+    }
+
+    footer p:nth-child(4){
+        width: 60vw;
+    }
+    footer p:nth-child(5){
+        width: 40vw;
+    }
+    footer p:nth-child(6){
+        width: 30vw;
+    }
+    footer p:nth-child(7){
+        width: 20vw;
+    }
+    #logo-final{
+        width: 30vw;
     }
 
 }

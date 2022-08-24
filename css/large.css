@@ -282,7 +282,6 @@
     #libro-div{
         min-height: 100vh;
         height: auto;
-        margin-top: 5vh;
         width: 70vw;
         display: grid;
         column-gap: 5vw;

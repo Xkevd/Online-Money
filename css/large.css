@@ -5,7 +5,7 @@
     }
     
     header{
-        margin-top: 15vh;
+        margin-top: 5vh;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: min-content 5vh auto 20vh auto auto;
@@ -90,6 +90,9 @@
     }
 
     /* --- MAIN --- */
+    main{
+        margin-top: -10vh;
+    }
     #introduccion{
         height: 10vh;
     }
@@ -232,7 +235,7 @@
         column-gap: 5vw;
         margin-top: auto;
         margin-bottom: auto;     
-        padding: auto;
+        padding: 0;
         align-content: center;
     }
     #cuarto-parrafo div{
@@ -254,10 +257,9 @@
     #cuarto-parrafo + hr{
         width: 15vw;
     }
-    #quinto-parrafo hr{
+    hr{
         width: 15vw;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin: auto;
     }
     #quinto-parrafo{
         width: 50vw;
@@ -265,6 +267,8 @@
         height: auto;
         display: flex;
         flex-direction: column;
+        padding-bottom: 0; 
+        padding-top: 0; 
         justify-content: center;
     }
     #quinto-parrafo h2{
@@ -280,6 +284,7 @@
     }
     /* --- LIBRO --- */
     #libro-div{
+        padding-top: 0;
         min-height: 100vh;
         height: auto;
         width: 70vw;

@@ -3,13 +3,16 @@
         --button-image-size: 60vw;
         --button-img-size: calc(var(--button-image-size)*0.8);
     }
-    
+    body{
+        margin-top: 0;
+    }
     header{
         
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: min-content 5vh auto 20vh auto auto;
-        height: 100vh;
+        min-height: 100vh;
+        height: fit-content;
         align-content: center;
     }
     #iphones{
@@ -92,7 +95,7 @@
 
     /* --- MAIN --- */
     main{
-        margin-top: -10vh;
+        margin-top: -5vh;
     }
     #introduccion{
         height: 10vh;

@@ -5,11 +5,12 @@
     }
     
     header{
-        margin-top: 5vh;
+        
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: min-content 5vh auto 20vh auto auto;
         height: 100vh;
+        align-content: center;
     }
     #iphones{
         grid-column: 1/2;

@@ -365,7 +365,18 @@
         top: -8vh;
     }
 
+    footer hr{
+        
+        border: none;
+        height: 1px;
+        color: #EAEAEA;
+        background-color: #EAEAEA;
+    }
+    #copyright{
+        padding: 5px 0;
+    }
     footer p:nth-child(4){
+        margin-top: 10px;
         width: 60vw;
     }
     footer p:nth-child(5){

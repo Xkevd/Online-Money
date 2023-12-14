@@ -2,6 +2,7 @@
 @font-face{
     font-family: "Roxborough";
     src: url("../fonts/Roxborough/Webfont/RoxboroughCF-DemiBold.woff2") format("woff2");
+   
 }
 /* --- VARIABLES --- */
 /*-Colores */
@@ -50,6 +51,14 @@ a{
 }
 .negro{
     color: var(--negro);
+}
+
+/*FONTS*/
+.RoxFont{
+    font-family: "Roxborough";
+}
+.italic{
+    font-style: italic;
 }
 .mon-light{
     font-family: "Montserrat";

@@ -107,12 +107,18 @@
         margin-top: -5vh;
     }
     #introduccion{
-        height: 10vh;
+        height: fit-content;
+        background-color: var(--blanco);
+        padding: 0;
+        width: 100%;
     }
     #introduccion p{
         font-size: 2.8vh;
         text-align: center;
         padding: auto;
+    }
+    #introduction p:nth-child(2){
+        font-size: ;
     }
     /* --- CUATRO PUNTOS --- */
     #cuatro-puntos{

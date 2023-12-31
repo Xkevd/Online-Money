@@ -5,6 +5,9 @@
     }
     body{
         margin-top: 0;
+        padding: 0;
+        margin: 0;
+        height: 100%;
     }
     header{
         background-image: url(../images/Recurso-2.png);
@@ -18,6 +21,7 @@
         padding-top: 8rem;
         padding-left: 8rem;
         padding-right: 8rem;
+        margin: 0;
     }
     #iphonesBg{
         position: absolute;
@@ -104,42 +108,59 @@
 
     /* --- MAIN --- */
     main{
-        margin-top: -5vh;
+        margin: 0;
     }
     #introduccion{
-        background-color: var(--blanco);
+        background-image: url(../images/bg-white.png);
         padding: 0;
-        padding-top: 8rem;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
         width: 100%;
     }
     #introduccion p{
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
-        padding: auto;
+        padding: 0 15vw;
+
+    }
+    #introduccion p:nth-of-type(2){
+        font-size: 2rem;
+        padding: 0 10vw;
     }
     /* --- CUATRO PUNTOS --- */
     #cuatro-puntos{
-        margin-top: 0;
-        height: 90vh;
+        margin: 0;
         padding: auto;
         display: flex;
         height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
     }
     #cuatro-puntos section{
         border: #1D1D1D solid 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     #cuatro-puntos section:nth-child(2), #cuatro-puntos section:nth-child(3), #cuatro-puntos section:nth-child(4){
         border-left: none;
     }
     #cuatro-puntos section h1{
-        font-size: 8vh;
+        font-size: 9vh;
         color: var(--negro);
+        margin: 2rem 0;
     }
     #cuatro-puntos section p{
-        font-size: 2.7vh;
+        font-size: 2.5vh;
+        font-family: "Roxborough";
+        font-style: italic;
+        font-weight: 300;
         text-align: center;
         padding: 0 2rem;
         margin-top: 0;
+        margin-bottom: 2rem;
         color: var(--negro);
     }
     main div{
@@ -147,20 +168,17 @@
     }
     /* --- BULLET POINTS --- */
     #bullet-points-div{
-        width: 90vw;
         min-height: 100vh;
         height: auto;
         padding: 5vh 8vh;
         display: grid;
-        grid-template-columns: 100%;
         grid-template-rows: repeat(7, min-content) auto;
         align-content: center;
-    }
-    #bullet-points-div p:nth-child(1){
-        display: none;
+        margin: 0;
+        
     }
     #bullet-points-div h2{
-        font-size: 4.5vh;
+        font-size: 2.5rem;
         margin: 0;
         grid-row: 1/2;
     }
@@ -171,6 +189,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 0;
     }
     #bullet-ul-1 li{
         font-size: 2vh;
@@ -188,10 +207,11 @@
         text-align: center;
         font-weight: 400;
         grid-column: 1/2;
-        font-size: 2.5vh;
+        font-size: 1rem;
         width: 25vw;
         align-self: center;
         justify-self: center;
+        margin: 2rem 0;
     }
     #segunda-lista{
         margin-top: 0;
@@ -208,6 +228,7 @@
     #bullet-points-div a button{
         margin-top: 0;
         font-weight: 400;
+        font-size: 0.8rem;
         width: 23vw;
         transition: 0.2s box-shadow;
     }
@@ -226,14 +247,13 @@
     #cuarto-parrafo{
         min-height: 100vh;
         height: auto;
-        width: 80vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(6, min-content);
         column-gap: 5vw;
         margin-top: auto;
         margin-bottom: auto;     
-        padding: 0;
+        padding: 0 10vw;
         align-content: center;
     }
     #cuarto-parrafo div{
@@ -244,7 +264,9 @@
     }
     #cuarto-parrafo h2{
         margin-bottom: 0;
-        font-size: 4vh;
+        font-size: 1.5rem;
+        font-family: "RoxboroughLight";
+        font-weight: 300;
     }
     #cuarto-parrafo p{
         margin-top: 0;

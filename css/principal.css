@@ -4,6 +4,16 @@
     src: url("../fonts/Roxborough/Webfont/RoxboroughCF-DemiBold.woff2") format("woff2");
    
 }
+@font-face{
+    font-family: "RoxboroughLight";
+    src: url("../fonts/Roxborough/Webfont/RoxboroughCF-Thin.woff2") format("woff2");
+   
+}
+@font-face{
+    font-family: "Times";
+    src: url("../fonts/Times/37897_TIMES_IT.ttf");
+   
+}
 /* --- VARIABLES --- */
 /*-Colores */
 :root{
@@ -56,6 +66,14 @@ a{
 /*FONTS*/
 .RoxFont{
     font-family: "Roxborough";
+}
+.RoxLiFont{
+    font-family: "RoxboroughLight";
+    font-weight: 300;
+}
+
+.TimesFont{
+    font-family: "Times";
 }
 .italic{
     font-style: italic;
@@ -141,21 +159,21 @@ header div a button{
 }
 #cuatro-puntos h1{
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 /* --- Bullet Points --- */
-#bullet-points-div{
+/* #bullet-points-div{
     padding-top: var(--espacio-entre-divs);
     background-color: var(--blanco);
     padding-bottom: var(--espacio-entre-divs);
-}
+} */
 
 #bullet-points-div ul{
-    border: var(--beige-oscuro) solid 2px;
+    border: var(--blanco) solid 2px;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 #bullet-points-div ul li{
     font-weight: 500;
@@ -178,6 +196,7 @@ header div a button{
 #cuarto-parrafo{
     padding-top: var(--espacio-entre-divs);
     padding-bottom: var(--espacio-entre-divs);
+    background-image: url(../images/bg-white.png);
 }
 #cuarto-parrafo h2{
     font-size: 1rem;

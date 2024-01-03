@@ -210,10 +210,9 @@ header div a button{
 @media (max-width:999px){
 #cuatro-puntos section{
     border: #1D1D1D solid 1px;
-    width: 35vw;
+    width: 50vwvw;
     min-width: 12rem;
-    height: 35vw;
-    min-height: 20rem;
+    height: fit-content;
     
 }
 }

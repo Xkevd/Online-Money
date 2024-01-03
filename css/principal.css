@@ -194,6 +194,9 @@ header div a button{
 /* --- Cuatro Puntos --- */
 #cuatro-puntos{
     padding-bottom: var(--espacio-entre-divs);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #cuatro-puntos h1{
     padding-bottom: 0;
@@ -207,12 +210,16 @@ header div a button{
 @media (max-width:999px){
 #cuatro-puntos section{
     border: #1D1D1D solid 1px;
-    width: 30vw;
-    height: 30vw;
+    width: 35vw;
+    min-width: 12rem;
+    height: 35vw;
+    min-height: 20rem;
     
 }
 }
-
+#cuatro-puntos section:nth-child(2), #cuatro-puntos section:nth-child(3), #cuatro-puntos section:nth-child(1){
+    border-bottom: none;
+}
 #cuatro-puntos section p{
     font-size: 1rem;
     font-family: "Roxborough";
@@ -227,11 +234,11 @@ header div a button{
 
 
 /* --- Bullet Points --- */
-/* #bullet-points-div{
+#bullet-points-div{
     padding-top: var(--espacio-entre-divs);
-    background-color: var(--blanco);
+    
     padding-bottom: var(--espacio-entre-divs);
-} */
+}
 
 #bullet-points-div ul{
     border: var(--blanco) solid 1px;

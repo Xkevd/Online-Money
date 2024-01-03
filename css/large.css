@@ -135,14 +135,16 @@
         height: fit-content;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-
+       
+        align-items: start;
     }
     #cuatro-puntos section{
         border: #1D1D1D solid 1px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
+        height: 100%;
     }
     #cuatro-puntos section:nth-child(2), #cuatro-puntos section:nth-child(3), #cuatro-puntos section:nth-child(4){
         border-left: none;

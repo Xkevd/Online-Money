@@ -192,7 +192,7 @@ header div a button{
 }
 
 /* --- Cuatro Puntos --- */
-/* #cuatro-puntos{
+#cuatro-puntos{
     padding-bottom: var(--espacio-entre-divs);
 }
 #cuatro-puntos h1{
@@ -204,12 +204,15 @@ header div a button{
     color: var(--negro);
     margin: 2rem 0;
 }
+@media (max-width:999px){
 #cuatro-puntos section{
     border: #1D1D1D solid 1px;
     width: 30vw;
     height: 30vw;
     
 }
+}
+
 #cuatro-puntos section p{
     font-size: 1rem;
     font-family: "Roxborough";
@@ -220,7 +223,7 @@ header div a button{
     margin-top: 0;
     margin-bottom: 2rem;
     color: var(--negro);
-} */
+} 
 
 
 /* --- Bullet Points --- */

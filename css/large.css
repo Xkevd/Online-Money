@@ -212,9 +212,9 @@
     }
     #primera-lista{
         text-align: center;
-        font-weight: 400;
+        
         grid-column: 1/2;
-        font-size: 1rem;
+        font-size: 1.3rem;
         width: 23vw;
         align-self: center;
         justify-self: center;
@@ -252,7 +252,7 @@
     }
     /* --- CUARTO PARRAFO --- */
     #cuarto-parrafo{
-        min-height: 100vh;
+        
         height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -262,6 +262,7 @@
         margin-bottom: auto;     
         padding: 5rem 10vw;
         align-content: center;
+        background-size: cover;
     }
     #cuarto-parrafo div{
         grid-column: 1/2;
@@ -289,8 +290,8 @@
         margin: auto;
     }
     #quinto-parrafo{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
         width: 50vw;
         min-height: 100vh;
         height: auto;
@@ -314,14 +315,14 @@
     /* --- LIBRO --- */
     #libro-div{
         padding-top: 0;
-        min-height: 100vh;
+        min-height: auto;
         height: auto;
         width: 70vw;
         display: grid;
         column-gap: 5vw;
         grid-template-rows: fit-content fit-content fit-content auto auto;
         grid-template-columns: 50% 50%;
-        align-content: center;
+        align-content: baseline;
     }
     #libro-div p:nth-child(1){
         grid-row: 1/2;

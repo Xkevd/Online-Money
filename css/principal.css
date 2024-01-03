@@ -139,10 +139,10 @@ header, main div{
     padding: 0 8vw;
 }
 header{
-    background-image: url(../images/Recurso-2.png);
+    background-image: url(../images/Recurso-14e.png);
     background-size: cover;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 header div{
     width: 75vw;
@@ -151,7 +151,9 @@ header div{
     align-items: center;
 }
 #subtitulo-header{
-    font-size: 1.5rem;
+    margin-top: 20rem;
+    font-size: 1.2rem;
+    color: white;
 }
 header div a button{
     width: 65vw;
@@ -163,11 +165,11 @@ header div a button{
     font-family: "Montserrat", sans-serif;
     display: block;
     padding: 1.3rem 1rem;
-    border: black 1px solid;
+    border: white 1px solid;
     background-color: transparent;
     cursor: pointer;
     margin-bottom: 1rem;
-    color: var(--negro);
+    color: white;
 }
 #pagos-1 img{
     position: relative;
@@ -177,7 +179,9 @@ header div a button{
 /*introduccion*/
 #introduccion{
     background-image: url(../images/bg-white.png);
+    background-size: cover;
     padding: 0;
+    padding-top: 3rem;
     width: 100%;
 }
 #introduccion p{
@@ -193,7 +197,7 @@ header div a button{
 
 /* --- Cuatro Puntos --- */
 #cuatro-puntos{
-    padding-bottom: var(--espacio-entre-divs);
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,7 +207,7 @@ header div a button{
     margin-bottom: 0;
 }
 #cuatro-puntos section h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--negro);
     margin: 2rem 0;
 }
@@ -215,10 +219,21 @@ header div a button{
     height: fit-content;
     
 }
+#pago-desk{
+    display: none;
+}
+#pago-mobile{
+    display: inline;
 }
 #cuatro-puntos section:nth-child(2), #cuatro-puntos section:nth-child(3), #cuatro-puntos section:nth-child(1){
     border-bottom: none;
 }
+
+}
+
+
+
+
 #cuatro-puntos section p{
     font-size: 1rem;
     font-family: "Roxborough";
@@ -281,6 +296,12 @@ header div a button{
 #quinto-parrafo{
     padding-top: var(--espacio-entre-divs);
     padding-bottom: var(--espacio-entre-divs);
+}
+#quinto-parrafo hr:nth-of-type(1){
+    margin-bottom: 2rem;
+}
+#quinto-parrafo hr:nth-of-type(2){
+    margin-top: 2rem;
 }
 #quinto-parrafo h2{
     font-size: 1.5rem;

@@ -105,7 +105,12 @@
     #pagos-1 img{
         width: 100%;
     }
-
+    #pago-desk{
+        display: inline-block;
+    }
+    #pago-mobile{
+        display: none;
+    }
     /* --- MAIN --- */
     main{
         margin: 0;

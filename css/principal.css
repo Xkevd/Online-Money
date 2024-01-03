@@ -159,7 +159,7 @@ header div a button{
 }
 #cuatro-puntos h1{
     padding-bottom: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 /* --- Bullet Points --- */
 /* #bullet-points-div{
@@ -169,14 +169,15 @@ header div a button{
 } */
 
 #bullet-points-div ul{
-    border: var(--blanco) solid 2px;
+    border: var(--blanco) solid 1px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
     margin-bottom: 1rem;
 }
 #bullet-points-div ul li{
-    font-weight: 500;
+    font-weight: 400;
     padding: 0.3rem 0;
 }
 #segunda-lista{
@@ -200,6 +201,7 @@ header div a button{
 }
 #cuarto-parrafo h2{
     font-size: 1rem;
+    margin-bottom: 1rem;
 }
 #cuarto-parrafo div{
     padding: 0;

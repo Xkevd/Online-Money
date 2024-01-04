@@ -182,7 +182,7 @@ header div a button{
     width: 100%;
 }
 #introduccion p{
-    font-size: 0.8rem;
+    
     text-align: center;
     padding: 0 15vw;
 
@@ -191,6 +191,7 @@ header div a button{
     font-family: "Cormorant";
     font-style: italic;
     font-weight: 400;
+    font-size: 1rem;
 }
 #introduccion p:nth-of-type(2){
     font-size: 1.2rem;
@@ -272,11 +273,18 @@ header div a button{
     padding: 0.3rem 0;
 }
 #primera-lista{
-    font-weight: 500;
+    font-family: "Cormorant";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
     
 }
 #segunda-lista{
     margin-top: 2rem;
+    font-family: "Cormorant";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
 }
 #bullet-points-div a button{
     width: 100%;

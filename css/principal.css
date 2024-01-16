@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300;1,400;1,500&family=Montserrat:wght@100;300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:wght@100;300;400;600;800&display=swap');
 
 @font-face{
     font-family: "Roxborough";
@@ -8,7 +8,7 @@
 }
 @font-face{
     font-family: "RoxboroughLight";
-    src: url("../fonts/Roxborough/Webfont/RoxboroughCF-Thin.woff2") format("woff2");
+    src: url("../fonts/Roxborough/Webfont/RoxboroughCF-Light.woff2") format("woff2");
    
 }
 @font-face{
@@ -202,9 +202,7 @@ header div a button{
     font-size: 1.2rem;
     padding: 0 10vw;
 }
-#introduccion p:nth-of-type(1){
-    font-weight: 500;
-}
+
 
 /* --- Cuatro Puntos --- */
 #cuatro-puntos{

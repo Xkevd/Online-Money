@@ -196,7 +196,7 @@ header div a button{
     font-family: "Cormorant";
     font-style: italic;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 #introduccion p:nth-of-type(2){
     font-size: 1.2rem;

@@ -28,9 +28,6 @@
 --espacio-entre-divs: 2rem;
 }
 /* --- ALINEACION DE TEXTO --- */
-.nowrap{
-    text-wrap: nowrap;
-}
 .left{
     text-align: left;
 }
@@ -204,9 +201,14 @@ header div a button{
 }
 #introduccion p:nth-of-type(2){
     font-size: 1.2rem;
-    padding: 0 10vw;
+    padding: 0;
 }
-
+#full-w-p{
+    margin: auto;
+    margin-bottom: 2rem;
+    width: max-content;
+    text-align: center;
+}
 
 /* --- Cuatro Puntos --- */
 #cuatro-puntos{

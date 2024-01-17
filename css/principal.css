@@ -28,6 +28,9 @@
 --espacio-entre-divs: 2rem;
 }
 /* --- ALINEACION DE TEXTO --- */
+.nowrap{
+    text-wrap: nowrap;
+}
 .left{
     text-align: left;
 }

@@ -10,7 +10,7 @@
         height: 100%;
     }
     header{
-        background-image: url(../images/Recurso-2.png);
+        background-image: url(../images/Recurso-2.jpg);
         background-size: cover;
         display: grid;
         align-items: baseline;
@@ -120,7 +120,7 @@
         margin: 0;
     }
     #introduccion{
-        background-image: url(../images/bg-white.png);
+        background-image: url(../images/bg-white.jpg);
         padding: 0;
         padding-top: 7rem;
         padding-bottom: 7rem;

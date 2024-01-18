@@ -141,7 +141,7 @@ header, main div{
     padding: 0 8vw;
 }
 header{
-    background-image: url(../images/Recurso-14e.png);
+    background-image: url(../images/Recurso-14e.jpg);
     background-size: cover;
     padding-top: 4rem;
     padding-bottom: 3rem;
@@ -181,7 +181,7 @@ header div a button{
 
 /*introduccion*/
 #introduccion{
-    background-image: url(../images/bg-white.png);
+    background-image: url(../images/bg-white.jpg);
     background-size: cover;
     padding: 0;
     padding-top: 3rem;
@@ -311,7 +311,7 @@ header div a button{
 #cuarto-parrafo{
     padding-top: var(--espacio-entre-divs);
     padding-bottom: var(--espacio-entre-divs);
-    background-image: url(../images/bg-white.png);
+    background-image: url(../images/bg-white.jpg);
 }
 #cuarto-parrafo h2{
     font-size: 1rem;

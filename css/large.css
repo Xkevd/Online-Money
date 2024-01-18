@@ -15,10 +15,11 @@
         display: grid;
         align-items: baseline;
         grid-template-columns: 60% 40%;
-        min-height: 100vh;
+        min-height: 80vh;
         height: fit-content;
         position: relative;
         padding-top: 8rem;
+        padding-bottom: 8rem;
         padding-left: 8rem;
         padding-right: 8rem;
         margin: 0;
@@ -217,7 +218,7 @@
     }
     #bullet-ul-2{
         padding: 0;
-        width: 23vw;
+        width: 23rem;
         margin: 0 auto;
         justify-self: left;
     }

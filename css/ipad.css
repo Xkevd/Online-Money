@@ -1,4 +1,4 @@
-@media (min-width:1400px) {
+@media (min-width:1000px) and (max-width:1400px){
     :root{
         --button-image-size: 60vw;
         --button-img-size: calc(var(--button-image-size)*0.8);
@@ -18,10 +18,10 @@
         min-height: 80vh;
         height: fit-content;
         position: relative;
-        padding-top: 8rem;
-        padding-bottom: 8rem;
-        padding-left: 8rem;
-        padding-right: 8rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         margin: 0;
     }
     #nowrap-section{
@@ -436,6 +436,50 @@
     }
     #logo-final{
         width: 30vw;
+    }
+}
+
+
+
+@media ((min-width:600px) and (max-width:999px)) or ((min-width:600px) and (orientation:portrait)){
+    header{
+        height: 80vh;
+        padding: 10vh 2rem;
+        margin: 0;
+    }
+    #logo-header{
+        margin-top: 0;
+    }
+    #button-1-container{
+        width: 60vw;
+    }
+    #button-1{
+        width: 40vw;
+    }
+    #pagos-1{
+        width: auto;
+    }
+    #pagos-1 img{
+        width: 35vw;
+    }
+    #bullet-points-div{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #bullet-points-div #bullet-button{
+        width: 40vw;
+    }
+    #pagos-2 img{
+        width: 35vw;
+    }
+    #cuarto-parrafo{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }

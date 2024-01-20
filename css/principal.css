@@ -240,7 +240,7 @@ header div a button{
     display: none;
 }
 #pago-mobile{
-    display: inline;
+    display: inline-block;
 }
 #cuatro-puntos section:nth-child(2), #cuatro-puntos section:nth-child(3), #cuatro-puntos section:nth-child(1){
     border-bottom: none;

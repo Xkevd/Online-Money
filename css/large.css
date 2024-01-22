@@ -374,13 +374,17 @@
     #libro-antes{
         grid-row: 1/4;
         margin-bottom: 0;
+        padding: 0;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
     #imagen-libro{
         width: 80%;
         margin: auto;
     }
     #libro-antes #imagen-libro img{
-        height: auto;
+        width: 100%;
         
     }
     #boton-libro{

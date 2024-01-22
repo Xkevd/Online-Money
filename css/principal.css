@@ -352,13 +352,14 @@ header div a button{
     position: relative;
 }
 #libro-div h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 #libro-div p{
     margin: 0.5rem;
 }
 #boton-libro{
     margin: 0;
+    margin-top: 1rem;
     width: 100%;
     margin-bottom: 1rem;
     cursor: pointer;

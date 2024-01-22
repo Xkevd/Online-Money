@@ -1,4 +1,4 @@
-@media (min-width:1000px) and (max-width:1400px){
+@media (min-width:1000px) and (max-width:1300px){
     :root{
         --button-image-size: 60vw;
         --button-img-size: calc(var(--button-image-size)*0.8);
@@ -94,8 +94,16 @@
         margin-bottom: 1rem;
         color: var(--negro);
     }
+    #button-1:hover{
+        box-shadow: 1px 1px 15px 3px #a0805380;transition: box-shadow 0.3s;
+    }
     #sub-p2+ a button:hover{
         box-shadow: 1px 1px 15px 1px #a0805380;
+        transition: box-shadow 0.3s;
+    }
+    #bullet-button:hover{
+        box-shadow: 1px 1px 15px 1px #a0805380;
+        transition: box-shadow 0.3s;
     }
     header div .boton-principal{
         font-weight: 500;
@@ -366,23 +374,16 @@
         align-self: flex-start;
     }
     #libro-antes{
-        align-self: flex-start;
-        display: flex;
-        flex-direction: column;
-        align-items:flex-start;
         grid-row: 1/4;
-        height: fit-content;
         margin-bottom: 0;
-    }
-    #precio-libro{
-        margin: auto;
-        width: 35%;
-        position: relative;
-        top: -8vh;
     }
     #imagen-libro{
         width: 80%;
         margin: auto;
+    }
+    #libro-antes #imagen-libro img{
+        height: auto;
+        width: 25rem;
     }
     #boton-libro{
         width: 80%;
@@ -393,8 +394,6 @@
         transition: 0.2s box-shadow;
         grid-row: 3/4;
         text-align: center;
-        position: relative;
-        top: -8vh;
     }
     #boton-libro:hover{
         box-shadow: 1px 1px 15px 1px #a0805380;
@@ -408,7 +407,6 @@
         grid-column: 2/3;
         grid-row: 4/5;
         position: relative;
-        top: -8vh;
     }
 
     footer hr{
@@ -447,6 +445,9 @@
         padding: 10vh 2rem;
         margin: 0;
 
+    }
+    #subtitulo-header{
+        font-size: 2rem;
     }
     #logo-header{
         margin-top: 0;
@@ -489,7 +490,7 @@
         width: 35vw;
     }
     #cuarto-parrafo{
-        height: 80vh;
+        min-height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -506,14 +507,17 @@
         font-size: 1.5rem;
     }
     #bullet-ul-1 li, #bullet-ul-2 li{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     #cuarto-parrafo h2{
         font-size: 1.5rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
     }
     #cuarto-parrafo p{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        margin-top: 0.3rem;
     }
 
     #quinto-parrafo p{

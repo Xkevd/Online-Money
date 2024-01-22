@@ -157,6 +157,7 @@ header div{
     font-size: 1.2rem;
     color: white;
     font-family: "RoxboroughRegular";
+    width: max-content;
 }
 header div a button{
     width: 65vw;

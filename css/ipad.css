@@ -446,12 +446,16 @@
         height: 80vh;
         padding: 10vh 2rem;
         margin: 0;
+
     }
     #logo-header{
         margin-top: 0;
     }
     #button-1-container{
         width: 60vw;
+    }
+    #sub-p1{
+        width: 50vw;
     }
     #button-1{
         width: 40vw;
@@ -462,12 +466,21 @@
     #pagos-1 img{
         width: 35vw;
     }
+
+    #introduccion{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        min-height: 80vh;
+    }
+
     #bullet-points-div{
-        min-height: 100vh;
+        min-height: 80vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
     #bullet-points-div #bullet-button{
         width: 40vw;
@@ -476,10 +489,38 @@
         width: 35vw;
     }
     #cuarto-parrafo{
-        height: 100vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    #bullet-ul-1, #bullet-ul-2{
+        width: 23rem;
+    }
+    #bullet-points-div h2{
+        font-size: 2rem;
+    }
+    #bullet-points-div p{
+        font-size: 1.5rem;
+    }
+    #bullet-ul-1 li, #bullet-ul-2 li{
+        font-size: 1.3rem;
+    }
+
+    #cuarto-parrafo h2{
+        font-size: 1.5rem;
+    }
+    #cuarto-parrafo p{
+        font-size: 1.3rem;
+    }
+
+    #quinto-parrafo p{
+        width: 23rem;
+    }
+    #quinto-parrafo{
+        padding-top: 10vh;
     }
 
 }

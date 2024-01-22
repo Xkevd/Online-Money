@@ -227,10 +227,8 @@
     }
     #primera-lista{
         text-align: center;
-        
         grid-column: 1/2;
         font-size: 1.5rem;
-        width: 23vw;
         align-self: center;
         justify-self: center;
         margin: 2rem 0;

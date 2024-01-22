@@ -356,20 +356,6 @@ header div a button{
 #libro-div p{
     margin: 0.5rem;
 }
-#libro-antes{
-    position: relative;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-#libro-antes picture img{
-    width: 100%;
-}
-#precio-libro{
-    width: 50vw;
-    margin: auto;
-    margin-top: -2rem;
-}
 #boton-libro{
     margin: 0;
     width: 100%;
@@ -378,7 +364,8 @@ header div a button{
     padding: 0.5rem;
 }
 #pagos-3{
-    width: 80vw;
+    width: 35vw;
+    min-width: 20rem;
 }
 /* --- FAQ --- */
 #faq-div section{

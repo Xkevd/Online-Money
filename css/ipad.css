@@ -24,6 +24,7 @@
         padding-right: 2rem;
         margin: 0;
     }
+
     #nowrap-section{
         width: fit-content;
         justify-self: right;
@@ -55,6 +56,7 @@
         margin-top: 0;
         margin-bottom: 0;
         color: black;
+        width: max-content;
     }
     header div{
         display: flex;

@@ -366,6 +366,9 @@ header div a button{
     padding: 1rem;
 
 }
+#libro-antes{
+    padding: 0;
+}
 #pagos-3{
     width: 35vw;
     min-width: 20rem;

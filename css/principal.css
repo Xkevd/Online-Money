@@ -173,6 +173,7 @@ header div a button{
     cursor: pointer;
     margin-bottom: 1rem;
     color: white;
+    min-width: max-content;
 }
 #pagos-1 img{
     position: relative;
